@@ -74,21 +74,6 @@ Tap the bookmark to save / unsave
 Tap Share to trigger a placeholder action
 (prints to console — replace with a real share flow)
 
-🏗 Architecture & Key Files
-LiquidGlassExample/
-├─ App/
-│  └─ LiquidGlassWithInSwiftUIApp.swift
-├─ Scenes/
-│  └─ Main/
-│     ├─ ContentView.swift
-│     └─ Views/
-│        ├─ BackgroundView.swift
-│        ├─ TitleViewWithGlassDesign.swift
-│        ├─ ActionButtonsViewWithGlassDesign.swift
-│        └─ ExpandedButtonsWithGlassDesign.swift
-└─ Utilities/
-   └─ Extensions/
-      └─ View+Extension.swift
 
 📁 File Responsibilities
 LiquidGlassWithInSwiftUIApp.swift
