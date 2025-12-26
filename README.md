@@ -1,4 +1,4 @@
-✨ Liquid Glass Quote UI — SwiftUI (iOS 26)
+✨ Liquid Glass Design Demo App — SwiftUI (iOS 26)
 
 A modern Liquid Glass UI demo built with SwiftUI showcasing Apple’s new Glass Effect APIs in iOS 26.
 
