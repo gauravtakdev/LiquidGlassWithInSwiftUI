@@ -1,6 +1,6 @@
 //
-//  ActionButtonsView.swift
-//  LiquidGlassExample
+//  ActionButtonsViewWithGlassDesign.swift
+//  LiquidGlassWithInSwiftUI
 //
 //  Created by Gaurav Tak on 26/12/25.
 //

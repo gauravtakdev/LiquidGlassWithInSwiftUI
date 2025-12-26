@@ -1,13 +1,13 @@
 //
-//  ExpandedActionsView.swift
-//  LiquidGlassExample
+//  ExpandedButtonsWithGlassDesign.swift
+//  LiquidGlassWithInSwiftUI
 //
 //  Created by Gaurav Tak on 26/12/25.
 //
 //
 import SwiftUI
 
-// MARK: - ExpandedActionsView
+// MARK: - ExpandedButtonsWithGlassDesign
 
 struct ExpandedButtonsWithGlassDesign: View {
 
