@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ActionButtonsView: View {
+struct ActionButtonsViewWithGlassDesign: View {
     @State private var isSaved: Bool = false
     @State private var isLiked: Bool = false
     @State private var isMoreShown: Bool = false
@@ -17,14 +17,14 @@ struct ActionButtonsView: View {
         GlassEffectContainer(spacing: 20) {
             VStack(spacing: 16) {
                 if isMoreShown {
-                    ExpandedActionsView(
+                    ExpandedButtonsWithGlassDesign(
                         isSaved: $isSaved,
                         isLiked: $isLiked,
                         namespace: namespace
                     )
                 }
 
-                ToggleButtonView(
+                ToggleButtonWithGlassDesign(
                     isMoreShown: $isMoreShown,
                     namespace: namespace
                 )
@@ -34,7 +34,7 @@ struct ActionButtonsView: View {
     }
 }
 
-private struct ToggleButtonView: View {
+private struct ToggleButtonWithGlassDesign: View {
 
     @Binding var isMoreShown: Bool
     let namespace: Namespace.ID
@@ -55,5 +55,5 @@ private struct ToggleButtonView: View {
 }
 
 #Preview {
-    ActionButtonsView()
+    ActionButtonsViewWithGlassDesign()
 }

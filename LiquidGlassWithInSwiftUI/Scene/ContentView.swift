@@ -7,18 +7,23 @@
 
 import SwiftUI
 
+import SwiftUI
+
 struct ContentView: View {
+
+    let title: String
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+            BackgroundView()
+            VStack(spacing: 16) {
+                TitleViewWithGlassDesign(title: title)
+                ActionButtonsViewWithGlassDesign()
+            }
         }
-        .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView(title: "Liquid Glass Demo App")
 }

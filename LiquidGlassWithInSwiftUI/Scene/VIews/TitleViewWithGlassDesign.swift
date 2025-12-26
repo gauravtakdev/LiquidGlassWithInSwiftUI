@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TitleView: View {
+struct TitleViewWithGlassDesign: View {
 
     let title: String
 
@@ -23,5 +23,5 @@ struct TitleView: View {
 }
 
 #Preview {
-    TitleView(title: "Liquid Glass Demo Example App")
+    TitleViewWithGlassDesign(title: "Liquid Glass Demo Example App")
 }

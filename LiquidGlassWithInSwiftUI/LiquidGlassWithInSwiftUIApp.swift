@@ -11,7 +11,7 @@ import SwiftUI
 struct LiquidGlassWithInSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(title: "Liquid Glass\nDemo Example App")
         }
     }
 }
