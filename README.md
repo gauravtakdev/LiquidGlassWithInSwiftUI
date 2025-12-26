@@ -28,11 +28,11 @@ Smooth, natural transitions across UI states
 
 Small, testable SwiftUI views:
 
-QuoteView
+TitleViewWithGlassDesign
 
-ActionButtonsView
+ActionButtonsWithGlassDesign
 
-ExpandedActionsView
+ExpandedButtonsWithGlassDesign
 
 BackgroundView
 
@@ -57,7 +57,7 @@ If you target earlier iOS versions or older Xcode releases, Glass-related APIs w
 
 ⚙️ Getting Started
 
-Open LiquidGlassExample.xcodeproj in Xcode
+Open LiquidGlassWithInSwiftUIApp.xcodeproj in Xcode
 
 Select an iOS 26+ simulator or device
 
@@ -94,7 +94,7 @@ TitleViewWithGlassDesign.swift
 
 Centered quote text rendered on a glass surface
 
-ActionButtonsViewWithGlassDesign.swift
+ActionButtonsWithGlassDesign.swift
 
 Hosts the glass container
 
