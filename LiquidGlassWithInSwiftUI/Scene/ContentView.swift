@@ -18,7 +18,7 @@ struct ContentView: View {
             BackgroundView()
             VStack(spacing: 16) {
                 TitleViewWithGlassDesign(title: title)
-                ActionButtonsViewWithGlassDesign()
+                ActionButtonsWithGlassDesign()
             }
         }
     }

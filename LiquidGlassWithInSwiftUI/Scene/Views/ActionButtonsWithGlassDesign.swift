@@ -1,5 +1,5 @@
 //
-//  ActionButtonsViewWithGlassDesign.swift
+//  ActionButtonsWithGlassDesign.swift
 //  LiquidGlassWithInSwiftUI
 //
 //  Created by Gaurav Tak on 26/12/25.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ActionButtonsViewWithGlassDesign: View {
+struct ActionButtonsWithGlassDesign: View {
     @State private var isSaved: Bool = false
     @State private var isLiked: Bool = false
     @State private var isMoreShown: Bool = false
