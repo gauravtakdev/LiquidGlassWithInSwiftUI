@@ -55,5 +55,5 @@ private struct ToggleButtonWithGlassDesign: View {
 }
 
 #Preview {
-    ActionButtonsViewWithGlassDesign()
+    ActionButtonsWithGlassDesign()
 }
